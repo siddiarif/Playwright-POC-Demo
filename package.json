@@ -1,0 +1,25 @@
+{
+  "name": "flight-booking-automation",
+  "version": "1.0.0",
+  "description": "Beginner friendly Playwright TypeScript automation for BlazeDemo flight booking application",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "automation",
+    "e2e",
+    "blazedemo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "typescript": "latest"
+  }
+}
